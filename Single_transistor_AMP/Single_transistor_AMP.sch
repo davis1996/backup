@@ -271,7 +271,7 @@ L CONN_01X02 P3
 U 1 1 58D96B3D
 P 4450 2850
 F 0 "P3" H 4450 3000 50  0000 C CNN
-F 1 "CONN_01X02" V 4550 2850 50  0000 C CNN
+F 1 "power" V 4550 2850 50  0000 C CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 6550 5000 50  0000 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/Combicon%20Compact%20Series.pdf" H -250 4250 50  0000 C CNN
 	1    4450 2850

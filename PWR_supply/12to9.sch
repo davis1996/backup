@@ -33,7 +33,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -43,6 +43,46 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 1700 1600 0    60   Output ~ 0
+Vin
+Text HLabel 2750 2550 3    60   Output ~ 0
+GND
+Text HLabel 4050 1600 2    60   Output ~ 0
+Vout
+Wire Wire Line
+	1700 1600 2350 1600
+Wire Wire Line
+	3150 1600 4050 1600
+$Comp
+L CP1 C6
+U 1 1 58D246FC
+P 2100 2050
+F 0 "C6" H 2125 2150 50  0000 L CNN
+F 1 "0.33uF" H 2125 1950 50  0000 L CNN
+F 2 "" H 2100 2050 50  0000 C CNN
+F 3 "" H 2100 2050 50  0000 C CNN
+	1    2100 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C5
+U 1 1 58D24723
+P 3300 2050
+F 0 "C5" H 3325 2150 50  0000 L CNN
+F 1 "0.1uF" H 3325 1950 50  0000 L CNN
+F 2 "" H 3300 2050 50  0000 C CNN
+F 3 "" H 3300 2050 50  0000 C CNN
+	1    3300 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1900 3300 1600
+Connection ~ 3300 1600
+Wire Wire Line
+	2100 2200 3300 2200
+Wire Wire Line
+	2100 1900 2100 1600
+Connection ~ 2100 1600
 $Comp
 L LM7809ACT U1
 U 1 1 58D2464C
@@ -54,47 +94,6 @@ F 3 "" H 2750 1650 50  0000 C CNN
 	1    2750 1650
 	1    0    0    -1  
 $EndComp
-Text HLabel 1700 1600 0    60   Output ~ 0
-Vin
-Text HLabel 2750 2550 3    60   Output ~ 0
-GND
-Text HLabel 4050 1600 2    60   Output ~ 0
-Vout
 Wire Wire Line
 	2750 1900 2750 2550
-Wire Wire Line
-	1700 1600 2350 1600
-Wire Wire Line
-	3150 1600 4050 1600
-$Comp
-L CP1 0.33uF1
-U 1 1 58D246FC
-P 2100 2050
-F 0 "0.33uF1" H 2125 2150 50  0000 L CNN
-F 1 "CP1" H 2125 1950 50  0000 L CNN
-F 2 "" H 2100 2050 50  0000 C CNN
-F 3 "" H 2100 2050 50  0000 C CNN
-	1    2100 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP1 0.1uF1
-U 1 1 58D24723
-P 3300 2050
-F 0 "0.1uF1" H 3325 2150 50  0000 L CNN
-F 1 "CP1" H 3325 1950 50  0000 L CNN
-F 2 "" H 3300 2050 50  0000 C CNN
-F 3 "" H 3300 2050 50  0000 C CNN
-	1    3300 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 1900 3300 1600
-Connection ~ 3300 1600
-Wire Wire Line
-	2100 2200 3300 2200
-Connection ~ 2750 2200
-Wire Wire Line
-	2100 1900 2100 1600
-Connection ~ 2100 1600
 $EndSCHEMATC
