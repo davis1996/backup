@@ -162,7 +162,7 @@ F 1 "Input" V 3350 3850 50  0000 C CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 4150 5300 50  0000 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/Combicon%20Compact%20Series.pdf" H -2650 4350 50  0000 C CNN
 	1    3250 3850
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_01X02 P2
@@ -275,7 +275,7 @@ F 1 "power" V 4550 2850 50  0000 C CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 6550 5000 50  0000 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/Combicon%20Compact%20Series.pdf" H -250 4250 50  0000 C CNN
 	1    4450 2850
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Connection ~ 5050 2800
 Connection ~ 5050 4900

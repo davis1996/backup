@@ -51,7 +51,7 @@ P 5150 2750
 F 0 "DS1" H 4350 3150 50  0000 C CNN
 F 1 "LCD-016N002L" H 5850 3150 50  0000 C CNN
 F 2 "WC1602A" H 5150 2700 50  0000 C CIN
-F 3 "" H 5150 2750 50  0000 C CNN
+F 3 "https://www.openhacks.com/uploadsproductos/eone-1602a1.pdf" H 5150 2750 50  0001 C CNN
 	1    5150 2750
 	1    0    0    -1  
 $EndComp
@@ -62,7 +62,7 @@ P 5100 5450
 F 0 "U5" H 5600 4500 70  0000 C CNN
 F 1 "arduino_mini" H 5850 4400 70  0000 C CNN
 F 2 "DIL20" H 5100 5400 60  0000 C CNN
-F 3 "" H 5100 5450 60  0001 C CNN
+F 3 "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf" H 5100 5450 60  0001 C CNN
 	1    5100 5450
 	0    -1   -1   0   
 $EndComp
@@ -72,8 +72,8 @@ U 1 1 590ED554
 P 4600 3750
 F 0 "RV1" V 4425 3750 50  0000 C CNN
 F 1 "POT" V 4500 3750 50  0000 C CNN
-F 2 "" H 4600 3750 50  0000 C CNN
-F 3 "" H 4600 3750 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Piher_PT-10v5_Horizontal_Px5.0mm_Py5.0mm" H 4600 3750 50  0001 C CNN
+F 3 "http://www.dipmicro.com/?datasheet=RM065.pdf" H 4600 3750 50  0001 C CNN
 	1    4600 3750
 	0    -1   -1   0   
 $EndComp
@@ -83,8 +83,8 @@ U 1 1 590ED642
 P 5950 3550
 F 0 "RV2" V 5775 3550 50  0000 C CNN
 F 1 "POT" V 5850 3550 50  0000 C CNN
-F 2 "" H 5950 3550 50  0000 C CNN
-F 3 "" H 5950 3550 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Piher_PT-10v5_Horizontal_Px5.0mm_Py5.0mm" H 5950 3550 50  0001 C CNN
+F 3 "http://www.dipmicro.com/?datasheet=RM065.pdf" H 5950 3550 50  0001 C CNN
 	1    5950 3550
 	-1   0    0    1   
 $EndComp
@@ -94,8 +94,8 @@ U 1 1 5910C5E4
 P 2400 4650
 F 0 "Q3" H 2600 4700 50  0000 L CNN
 F 1 "Q_NPN_BCE" H 2600 4600 50  0000 L CNN
-F 2 "" H 2600 4750 50  0000 C CNN
-F 3 "" H 2400 4650 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 2600 4750 50  0001 C CNN
+F 3 "http://www.hobbytronics.co.uk/datasheets/TIP31.pdf" H 2400 4650 50  0001 C CNN
 	1    2400 4650
 	-1   0    0    1   
 $EndComp
@@ -105,8 +105,8 @@ U 1 1 5910C6C1
 P 2100 4250
 F 0 "Q2" H 2300 4300 50  0000 L CNN
 F 1 "Q_NPN_BCE" H 2300 4200 50  0000 L CNN
-F 2 "" H 2300 4350 50  0000 C CNN
-F 3 "" H 2100 4250 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 2300 4350 50  0001 C CNN
+F 3 "http://www.hobbytronics.co.uk/datasheets/TIP31.pdf" H 2100 4250 50  0001 C CNN
 	1    2100 4250
 	-1   0    0    1   
 $EndComp
@@ -116,8 +116,8 @@ U 1 1 5910C72E
 P 1800 3850
 F 0 "Q1" H 2000 3900 50  0000 L CNN
 F 1 "Q_NPN_BCE" H 2000 3800 50  0000 L CNN
-F 2 "" H 2000 3950 50  0000 C CNN
-F 3 "" H 1800 3850 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 2000 3950 50  0001 C CNN
+F 3 "http://www.hobbytronics.co.uk/datasheets/TIP31.pdf" H 1800 3850 50  0001 C CNN
 	1    1800 3850
 	-1   0    0    1   
 $EndComp
@@ -126,9 +126,9 @@ L R R1
 U 1 1 5910C779
 P 2400 3850
 F 0 "R1" V 2480 3850 50  0000 C CNN
-F 1 "R" V 2400 3850 50  0000 C CNN
-F 2 "" V 2330 3850 50  0000 C CNN
-F 3 "" H 2400 3850 50  0000 C CNN
+F 1 "1k" V 2400 3850 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal" H 2330 3850 50  0001 C CNN
+F 3 "https://lib.chipdip.ru/505/DOC001505920.pdf" H 2400 3850 50  0001 C CNN
 	1    2400 3850
 	0    1    1    0   
 $EndComp
@@ -137,9 +137,9 @@ L R R2
 U 1 1 5910C7C6
 P 2650 4250
 F 0 "R2" V 2730 4250 50  0000 C CNN
-F 1 "R" V 2650 4250 50  0000 C CNN
-F 2 "" V 2580 4250 50  0000 C CNN
-F 3 "" H 2650 4250 50  0000 C CNN
+F 1 "1k" V 2650 4250 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal" H 2580 4250 50  0001 C CNN
+F 3 "https://lib.chipdip.ru/505/DOC001505920.pdf" H 2650 4250 50  0001 C CNN
 	1    2650 4250
 	0    1    1    0   
 $EndComp
@@ -148,9 +148,9 @@ L R R3
 U 1 1 5910C7F5
 P 2900 4650
 F 0 "R3" V 2980 4650 50  0000 C CNN
-F 1 "R" V 2900 4650 50  0000 C CNN
-F 2 "" V 2830 4650 50  0000 C CNN
-F 3 "" H 2900 4650 50  0000 C CNN
+F 1 "1k" V 2900 4650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal" V 2830 4650 50  0001 C CNN
+F 3 "https://lib.chipdip.ru/505/DOC001505920.pdf" H 2900 4650 50  0001 C CNN
 	1    2900 4650
 	0    1    1    0   
 $EndComp
@@ -160,8 +160,8 @@ U 1 1 5910C9C0
 P 2000 2600
 F 0 "J2" H 2000 3050 50  0000 C TNN
 F 1 "Screw_Terminal_1x04" V 1850 2600 50  0000 C TNN
-F 2 "" H 2000 2175 50  0001 C CNN
-F 3 "" H 1975 2800 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_4pol" H 2000 2175 50  0001 C CNN
+F 3 "http://www.altechcorp.com/PDFS/PCB-Pluggable.pdf" H 1975 2800 50  0001 C CNN
 	1    2000 2600
 	0    1    1    0   
 $EndComp
@@ -193,8 +193,8 @@ U 1 1 5910E955
 P 5900 7500
 F 0 "P2" H 5900 8550 50  0000 C CNN
 F 1 "CONN_01X20" V 6000 7500 50  0000 C CNN
-F 2 "" H 5900 7500 50  0000 C CNN
-F 3 "" H 5900 7500 50  0000 C CNN
+F 2 "Connectors:IDC_Header_Straight_20pins" H 5900 7500 50  0001 C CNN
+F 3 "http://www.mmtmachrone.com/pdf/20090217224253PHa.pdf" H 5900 7500 50  0001 C CNN
 	1    5900 7500
 	0    1    1    0   
 $EndComp
@@ -204,8 +204,8 @@ U 1 1 59110454
 P 2700 6750
 F 0 "P1" H 2900 6550 50  0000 C CNN
 F 1 "USB_A" H 2650 6950 50  0000 C CNN
-F 2 "" V 2650 6650 50  0000 C CNN
-F 3 "" V 2650 6650 50  0000 C CNN
+F 2 "Connectors:USB_A" V 2650 6650 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F7-1773442-0%7F0306%7Fpdf%7FEnglish%7FENG_DS_7-1773442-0_0306.pdf%7F292336-1" H 2650 6650 50  0001 C CNN
 	1    2700 6750
 	-1   0    0    1   
 $EndComp
@@ -215,8 +215,8 @@ U 1 1 5911F97A
 P 2050 5450
 F 0 "U1" H 2050 5650 60  0000 C CNN
 F 1 "LM2576HV" H 2050 5750 60  0000 C CNN
-F 2 "" H 2100 5450 60  0001 C CNN
-F 3 "" H 2100 5450 60  0001 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220-5_Pentawatt_Multiwatt-5_Vertical" H 2100 5450 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2576.pdf" H 2100 5450 60  0001 C CNN
 	1    2050 5450
 	1    0    0    -1  
 $EndComp
@@ -225,9 +225,9 @@ L CP1 C1
 U 1 1 5911FA0C
 P 1500 5750
 F 0 "C1" H 1525 5850 50  0000 L CNN
-F 1 "CP1" H 1525 5650 50  0000 L CNN
-F 2 "" H 1500 5750 50  0000 C CNN
-F 3 "" H 1500 5750 50  0000 C CNN
+F 1 "1000uF" H 1525 5650 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 1500 5750 50  0001 C CNN
+F 3 "http://www.yageo.com/exep/pages/download/literatures/E-cap_2011.pdf" H 1500 5750 50  0001 C CNN
 	1    1500 5750
 	1    0    0    -1  
 $EndComp
@@ -237,8 +237,8 @@ U 1 1 5911FA5D
 P 2500 5750
 F 0 "D1" H 2500 5850 50  0000 C CNN
 F 1 "D_Schottky" H 2500 5650 50  0000 C CNN
-F 2 "" H 2500 5750 50  0000 C CNN
-F 3 "" H 2500 5750 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2500 5750 50  0001 C CNN
+F 3 "https://www.pdp8online.com/mfm/board/datasheets/Fairchild_1N5820.pdf" H 2500 5750 50  0001 C CNN
 	1    2500 5750
 	0    1    1    0   
 $EndComp
@@ -247,9 +247,9 @@ L L L1
 U 1 1 5911FACA
 P 2700 5500
 F 0 "L1" V 2650 5500 50  0000 C CNN
-F 1 "L" V 2775 5500 50  0000 C CNN
+F 1 "100uH" V 2775 5500 50  0000 C CNN
 F 2 "" H 2700 5500 50  0000 C CNN
-F 3 "" H 2700 5500 50  0000 C CNN
+F 3 "https://www.ineltro.ch/media/downloads/SAAItem/25/25670/564c7d97-85b8-461e-a4cf-90b6538cd451.pdf" H 2700 5500 50  0001 C CNN
 	1    2700 5500
 	0    1    1    0   
 $EndComp
@@ -258,44 +258,11 @@ L CP1 C2
 U 1 1 5911FB8B
 P 3000 5750
 F 0 "C2" H 3025 5850 50  0000 L CNN
-F 1 "CP1" H 3025 5650 50  0000 L CNN
-F 2 "" H 3000 5750 50  0000 C CNN
-F 3 "" H 3000 5750 50  0000 C CNN
+F 1 "100uF" H 3025 5650 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 3000 5750 50  0001 C CNN
+F 3 "https://www.arduino.cc/documents/datasheets/cap100uF.pdf" H 3000 5750 50  0001 C CNN
 	1    3000 5750
 	1    0    0    -1  
-$EndComp
-$Comp
-L push_button U2
-U 1 1 59121AF8
-P 3100 5050
-F 0 "U2" H 3100 4950 60  0000 C CNN
-F 1 "push_button" H 3100 5200 60  0000 C CNN
-F 2 "" H 3100 5050 60  0001 C CNN
-F 3 "" H 3100 5050 60  0001 C CNN
-	1    3100 5050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L push_button U3
-U 1 1 59121BAB
-P 3450 5050
-F 0 "U3" H 3450 4950 60  0000 C CNN
-F 1 "push_button" H 3450 5200 60  0000 C CNN
-F 2 "" H 3450 5050 60  0001 C CNN
-F 3 "" H 3450 5050 60  0001 C CNN
-	1    3450 5050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L push_button U4
-U 1 1 59121DF6
-P 3800 5050
-F 0 "U4" H 3800 4950 60  0000 C CNN
-F 1 "push_button" H 3800 5200 60  0000 C CNN
-F 2 "" H 3800 5050 60  0001 C CNN
-F 3 "" H 3800 5050 60  0001 C CNN
-	1    3800 5050
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Screw_Terminal_1x02 J1
@@ -303,8 +270,8 @@ U 1 1 59123F47
 P 1850 6150
 F 0 "J1" H 1850 6400 50  0000 C TNN
 F 1 "Screw_Terminal_1x02" V 1700 6150 50  0000 C TNN
-F 2 "" H 1850 5925 50  0001 C CNN
-F 3 "" H 1825 6150 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 1850 5925 50  0001 C CNN
+F 3 "http://www.altechcorp.com/PDFS/PCB-Pluggable.pdf" H 1825 6150 50  0001 C CNN
 	1    1850 6150
 	0    1    1    0   
 $EndComp
@@ -339,8 +306,6 @@ Wire Wire Line
 	4700 3650 5050 3650
 Wire Wire Line
 	5050 3650 5050 4750
-Wire Wire Line
-	3100 5450 3950 5450
 Wire Wire Line
 	4500 3250 4500 3350
 Wire Wire Line
@@ -563,29 +528,9 @@ Wire Wire Line
 Wire Wire Line
 	3200 5600 3950 5600
 Wire Wire Line
-	4950 4750 4950 4550
+	4950 4300 4950 4750
 Wire Wire Line
-	4950 4550 3100 4550
-Wire Wire Line
-	3100 4550 3100 4850
-Wire Wire Line
-	4450 4750 3800 4750
-Wire Wire Line
-	3800 4750 3800 4850
-Wire Wire Line
-	4550 4750 4550 4700
-Wire Wire Line
-	4550 4700 3450 4700
-Wire Wire Line
-	3450 4700 3450 4850
-Wire Wire Line
-	3800 5250 3800 5450
-Connection ~ 3800 5450
-Wire Wire Line
-	3100 5250 3100 5450
-Wire Wire Line
-	3450 5250 3450 5450
-Connection ~ 3450 5450
+	4550 4400 4550 4750
 Connection ~ 1950 6450
 Wire Wire Line
 	1750 6350 1350 6350
@@ -669,7 +614,6 @@ Wire Wire Line
 Wire Wire Line
 	3650 3300 4500 3300
 Connection ~ 4500 3300
-Connection ~ 3650 5450
 Wire Wire Line
 	5950 3900 3650 3900
 Connection ~ 3650 3900
@@ -686,4 +630,42 @@ F 3 "" H 6650 5700 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	6650 5450 6650 5700
+$Comp
+L CONN_01X04 pogaam1
+U 1 1 59132BE3
+P 3850 4450
+F 0 "pogaam1" H 3850 4700 50  0000 C CNN
+F 1 "CONN_01X04" V 3950 4450 50  0000 C CNN
+F 2 "Connectors:bornier4" H 3850 4450 50  0001 C CNN
+F 3 "http://www.mmtmachrone.com/pdf/20090217224253PHa.pdf" H 3850 4450 50  0001 C CNN
+	1    3850 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 5450 3650 5450
+Wire Wire Line
+	4050 4300 4950 4300
+Wire Wire Line
+	4550 4400 4050 4400
+Wire Wire Line
+	4450 4750 4450 4500
+Wire Wire Line
+	4450 4500 4050 4500
+Wire Wire Line
+	4050 4600 4100 4600
+Wire Wire Line
+	4100 4600 4100 4800
+Wire Wire Line
+	4100 4800 3650 4800
+Connection ~ 3650 4800
+Wire Wire Line
+	2300 2950 800  2950
+Wire Wire Line
+	800  2950 800  7450
+Wire Wire Line
+	800  7450 2050 7450
+Wire Wire Line
+	2050 7450 2050 7200
+Connection ~ 2050 7200
+Connection ~ 2300 2950
 $EndSCHEMATC
