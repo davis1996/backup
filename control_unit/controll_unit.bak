@@ -61,7 +61,7 @@ U 1 1 590E11AE
 P 5100 5450
 F 0 "U5" H 5600 4500 70  0000 C CNN
 F 1 "arduino_mini" H 5850 4400 70  0000 C CNN
-F 2 "DIL20" H 5100 5400 60  0000 C CNN
+F 2 "arduino:arduino_mini" H 5100 5400 60  0000 C CNN
 F 3 "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf" H 5100 5450 60  0001 C CNN
 	1    5100 5450
 	0    -1   -1   0   
@@ -196,7 +196,7 @@ F 1 "CONN_01X20" V 6000 7500 50  0000 C CNN
 F 2 "Connectors:IDC_Header_Straight_20pins" H 5900 7500 50  0001 C CNN
 F 3 "http://www.mmtmachrone.com/pdf/20090217224253PHa.pdf" H 5900 7500 50  0001 C CNN
 	1    5900 7500
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L USB_A P1
@@ -248,7 +248,7 @@ U 1 1 5911FACA
 P 2700 5500
 F 0 "L1" V 2650 5500 50  0000 C CNN
 F 1 "100uH" V 2775 5500 50  0000 C CNN
-F 2 "" H 2700 5500 50  0000 C CNN
+F 2 "Inductors_NEOSID:Neosid_Inductor_Sd75" H 2700 5500 50  0001 C CNN
 F 3 "https://www.ineltro.ch/media/downloads/SAAItem/25/25670/564c7d97-85b8-461e-a4cf-90b6538cd451.pdf" H 2700 5500 50  0001 C CNN
 	1    2700 5500
 	0    1    1    0   
@@ -273,7 +273,7 @@ F 1 "Screw_Terminal_1x02" V 1700 6150 50  0000 C TNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 1850 5925 50  0001 C CNN
 F 3 "http://www.altechcorp.com/PDFS/PCB-Pluggable.pdf" H 1825 6150 50  0001 C CNN
 	1    1850 6150
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L +12V #PWR03
@@ -639,7 +639,7 @@ F 1 "CONN_01X04" V 3950 4450 50  0000 C CNN
 F 2 "Connectors:bornier4" H 3850 4450 50  0001 C CNN
 F 3 "http://www.mmtmachrone.com/pdf/20090217224253PHa.pdf" H 3850 4450 50  0001 C CNN
 	1    3850 4450
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3950 5450 3650 5450
@@ -658,4 +658,14 @@ Wire Wire Line
 Wire Wire Line
 	4100 4800 3650 4800
 Connection ~ 3650 4800
+Wire Wire Line
+	2300 2950 800  2950
+Wire Wire Line
+	800  2950 800  7450
+Wire Wire Line
+	800  7450 2050 7450
+Wire Wire Line
+	2050 7450 2050 7200
+Connection ~ 2050 7200
+Connection ~ 2300 2950
 $EndSCHEMATC

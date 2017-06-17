@@ -1,0 +1,4 @@
+Plot: 'E:\skola\dp\git\backup\Single_transistor_AMP\gerber_AMP\Single_transistor_AMP-F.Cu.svg' OK.
+Plot: 'E:\skola\dp\git\backup\Single_transistor_AMP\gerber_AMP\Single_transistor_AMP-B.Cu.svg' OK.
+Plot: 'E:\skola\dp\git\backup\Single_transistor_AMP\gerber_AMP\Single_transistor_AMP-B.SilkS.svg' OK.
+Plot: 'E:\skola\dp\git\backup\Single_transistor_AMP\gerber_AMP\Single_transistor_AMP-F.SilkS.svg' OK.
